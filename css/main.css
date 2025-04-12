@@ -67,6 +67,8 @@ a:active {
 
 }
 
+img {width: 100%; }
+
 .vintx-card-img a {
     display: inline-block;
     background: #000000; /* Меняем цвет на свой */ 
