@@ -235,6 +235,8 @@ img {width: 100%; }
 }
 
 @media (max-width: 770px) {
+    img {padding: 2%}
+    
     .profile_img {
         height: 50vh;
       }
