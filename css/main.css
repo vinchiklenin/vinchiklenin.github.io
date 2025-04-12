@@ -205,6 +205,11 @@ img {width: 100%; }
     margin: 0%;
     padding: 1%;
 }
+
+.col-md-6-sp {
+    margin: 0%;
+    padding: 0%;
+}
 .col-md-12 {
     margin: 0%;
     padding: 0%;
