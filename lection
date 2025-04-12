@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/favicon (4).ico" type="image/x-icon">
+    <title>Vinchiklenin</title>
+    <link rel="stylesheet" href="./css/main.css" >
+  </head>
+  <body>
+    <div class = "header">
+        <div class="container-fluid row">
+
+            <div class="col-md-6"> 
+              <div class="col-fluid profile_img">
+                <img src="img/profile.jpg" width=100% height=100% />
+                <style>
+                img {
+                        object-fit: cover;
+                }
+                </style>
+            </div>
+            </div>
+            <div class="col-md-6"> 
+                <div class="col-fluid profile_img">
+                    <img src="img/vnch.png" width=100% height=100% />
+                    <style>
+                    img {
+                            object-fit: cover;
+                    }
+                    </style>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class = "bio">
+      <div class="container-fluid row">
+
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3"> 
+        </div>
+
+        <div class="col-md-3"> 
+          <h3 class="h3">About</h3>
+          <p class="text"> Ivan Kovalenko hails from a city of vile liberals and demons called Yekaterinburg. He began designing typefaces and went on to join NT Type in 2021.</p>
+          
+
+        </div>
+        <div class="col-md-3"> 
+          <h3 class="h3">  ㅤㅤ </h3>
+          <p class="text"> He also happens to be a Python developer and a student at Ural Federal State University</p>
+      
+
+        </div>
+    </div>
+
+    <div class = "bio">
+      <div class="container-fluid row">
+
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3"> 
+        </div>
+
+        <div class="col-md-3"> 
+          
+          <br>
+          <br>
+          <br>
+          <h3 class="h3">Works</h3>
+          <a class="text" href='https://www.behance.net/gallery/186324753/NT-Sakharov' target="_blank">NT Sakharov typeface (2023)</a> 
+          <br>
+          <a class="text" href='https://www.behance.net/gallery/205546333/Branding-for-MAEI-SCHOOL-200' target="_blank">MAEI School No. 200 branding (2023)</a> 
+          <br>
+          <a class="text" href='https://www.behance.net/gallery/205484755/Arcane-branding' target="_blank">Arcane company branding (2024)</a> 
+          
+
+        </div>
+        <div class="col-md-3"> 
+          
+          <br>
+          <br>
+          <br>
+          <h3 class="h3"> Awards </h3>
+          <p class="text"> Sreda shortlist for NT Sakharov</p>
+          <br>
+          <p class="text"> Sreda bronze for NT Somic</p>
+          <br>
+
+        </div>
+    </div>
+
+    <div class = "bio">
+      <div class="container-fluid row">
+
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3"> 
+        </div>
+
+        <div class="col-md-3"> 
+
+          <br>
+          <br>
+          <br>
+          
+          <h3 class="h3">Links</h3>
+          <a class="text" href='https://t.me/vinchiklenin' target="_blank">tg</a> 
+          ㅤㅤ
+          <a class="text" href='https://vk.com/vinchiklenin' target="_blank">vk</a> 
+          ㅤㅤ
+          <a class="text" href='https://www.instagram.com/vinchiklenin' target="_blank">ig</a> 
+          ㅤㅤ
+          <a class="text" href='https://www.behance.net/vinchiklenin' target="_blank">behance</a> 
+          ㅤㅤ
+          <a class="text" href='https://nnttttyyppee.cc/' target="_blank">NT Type</a> 
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </div>
+        <div class="col-md-3"> 
+        </div>
+    </div>
+  </body>
+</html>
