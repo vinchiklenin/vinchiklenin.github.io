@@ -40,6 +40,14 @@ body {
 
 @font-face {
     font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
     src: url('../fonts/NTSakharov-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: 700;
@@ -139,6 +147,16 @@ img {width: 100%; }
     margin: 0vh;
     background-color:#000000;
 }
+
+.h1 {
+    font-family: 'NT Sakharov', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color:#ffffff;
+    line-height: 48px;
+    text-align: left;
+}
+
 
 .h3 {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
