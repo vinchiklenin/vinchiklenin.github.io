@@ -140,6 +140,6 @@ a:active {
     h4 {font-size: 15pt;}
 
     .header_container {
-        grid-template-columns: 1fr 6fr;
+        grid-template-columns: 1fr 8fr;
     }
 }
