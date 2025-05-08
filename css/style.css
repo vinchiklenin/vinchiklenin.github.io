@@ -115,9 +115,39 @@ a:active {
 }
 
 
-@media (max-width: 1400px) {}
+.work_img {
+    width: 100%;
+    padding: 1%;
+}
+
+.work_hover{
+    width: 100%;
+    padding: 0.5%;
+}
+
+.work_text {
+    max-width: 1400px;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1400px) {
+    .work_text {
+        max-width: 1000px;
+        font-size: 28px;
+    }
+
+}
 
 @media (max-width: 800px) {
+    .work_text {
+        padding-left: 1%;
+        font-size: 24px;
+    }
     h1 {font-size: 54pt;}
     h2 {font-size: 50pt;}
 
@@ -135,6 +165,9 @@ a:active {
 }
 
 @media (max-width: 450px) {
+    .work_text {
+        font-size: 18px;
+    }
     h1 {font-size: 32pt;}
     h2 {font-size: 28pt;}
 
