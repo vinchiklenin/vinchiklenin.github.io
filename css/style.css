@@ -77,8 +77,8 @@ a:active {
 }
 
 .header_container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+
     padding: 2%;
 }
 
@@ -86,11 +86,12 @@ a:active {
     display: flex;
     list-style: none;
     box-sizing: border-box;
+    margin-left: auto;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav_list_item {padding-item: 20px;}
+.nav_list_item {padding-right: 30px;}
 
 .logo_img {
     width: 50px;
