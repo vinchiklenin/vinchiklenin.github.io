@@ -51,6 +51,8 @@ main{padding: 1%;}
 
 h1 {font-size: 64pt; font-weight: 600;}
 
+h2 {font-size: 58pt; font-weight: 600;}
+
 h3 {font-size: 20pt; font-weight: 500; line-height: 36pt;}
 
 h4 {font-size: 18pt; font-weight: 500; line-height: 36pt;}
@@ -113,14 +115,11 @@ a:active {
 }
 
 
-@media (max-width: 1400px) {
-    .header_container {
-        grid-template-columns: 1fr 1fr;
-    }
-}
+@media (max-width: 1400px) {}
 
 @media (max-width: 800px) {
     h1 {font-size: 54pt;}
+    h2 {font-size: 50pt;}
 
     h4 {font-size: 16pt;}
 
@@ -137,10 +136,22 @@ a:active {
 
 @media (max-width: 450px) {
     h1 {font-size: 32pt;}
+    h2 {font-size: 28pt;}
 
     h4 {font-size: 15pt;}
 
-    .header_container {
-        grid-template-columns: 1fr 8fr;
+    .nav_list {
+        display:inline-table;
+        padding: 0;
+        margin: 0;
+        line-height: 10pt;
+        margin-left: auto;
+        align-items: left;
+    }
+
+    .nav_list_item {
+        padding: 0;
+        margin: 0;
+        line-height: 10pt;
     }
 }
