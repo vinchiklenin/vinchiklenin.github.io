@@ -1,12 +1,9 @@
 body {
     font-family: 'NT Sakharov', sans-serif;
-    background-color:#000000;
+    background-color:#080808;
     width: 100vw;
     font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "kern" 1;
-    padding: 0%;
-    margin: 0%;
 }
-
 
 
 ::-webkit-scrollbar {
@@ -56,97 +53,25 @@ body {
 
 
 a:link {
-    color: #ffffff;
+    color: #aaaaaa(100% 0.01 -0.01);
     text-decoration: underline;
 }
 
 a:visited {
-    color:#ffffff;
+    color:#aaaaaa;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #cccccc;
+    color: #aaaaaa;
     text-decoration: underline;
 }
 a:active {
-    color: #ffffff;
+    color: #aaaaaa;
     text-decoration: underline;
 
 }
 
-img {width: 100%; }
-
-.vintx-card-img a {
-    display: inline-block;
-    background: #000000; /* Меняем цвет на свой */ 
-    line-height: 0;
-  }
-.vintx-card a img {
-    transition: filter 0.1s linear;
-    filter: none;
-  }
-.vintx-card div:hover img {
-    filter: brightness(2) grayscale(2) opacity(0.7);
-}
-
-
-.vintx-tittle {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 700;
-    color: #1f1f1d;
-    font-size: 96px;
-    line-height: 90px;
-    text-align: left;
-    margin-bottom: 50px;
-    margin-top: 0;
-}
-
-.vintx-link {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    color:#1f1f1d;
-    line-height: 60px;
-    text-align: left;
-}
-
-.vintx-link-butt {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    background-color: #a9c4ff; 
-    line-height: 60px;
-    text-align: left;
-}
-
-.vintx-text {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    color:#1f1f1d;
-    line-height: 40px;
-    text-align: left;
-}
-
-
-.profile_img {
-    height: 94vh; 
-}
-
-.header {
-    max-width: 100vw;
-    max-height: 100vh;
-    margin: 0vh;
-    background-color:#000000;
-}
-
-.bio {
-    max-width: 100vw;
-    max-height: 100vh;
-    margin: 0vh;
-    background-color:#000000;
-}
 
 .h1 {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
@@ -157,83 +82,29 @@ img {width: 100%; }
     text-align: left;
 }
 
-
 .h3 {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 16px;
     color:#ffffff;
-    line-height: 40px;
+    line-height: 18px;
     text-align: left;
 }
 
-.text {
+.h5 {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 21px;
+    font-weight: 700;
+    font-size: 12px;
     color:#ffffff;
-    line-height: 40px;
-    text-align: left;  
+    line-height: 12px;
+    text-align: left;
 }
 
-.textmini {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    color:#ffffff;
-    line-height: 27px;
-    text-align: left;  
+.two-col-text{
+    display: flex;
 }
 
-.link {
-    font-family: 'NT Sakharov', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 21px;
-    color:#ffffff;
-    line-height: 40px;
-    text-align: left;  
-}
 
-.vintx-card {
-    max-width: 100vw;
-    max-height: 100vh;
-    margin: 2vh;
-    background-color:#000000;
-}
-
-.none {
-    display: none;
-}
-
-.col-md-3 {
-    margin: 0%;
-    padding: 0.3%;
-}
-
-.col-md-6 {
-    margin: 0%;
-    padding: 1%;
-}
-
-.col-md-6-sp {
-    margin: 0%;
-    padding: 0%;
-}
-.col-md-12 {
-    margin: 0%;
-    padding: 0%;
-}
-
-.col-fluid {
-    margin: 0px;
-    background-color: #000000;
-    width: 100%;
-}
-
-.container-fluid {
-    margin: 0%;
-    padding: 0%;
-}
 
 
 

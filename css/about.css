@@ -1,0 +1,18 @@
+.about{
+    gap: 24px;
+    display: flex;
+
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.half-col{
+    flex: 1;
+}
+
+
+.two-col-text {
+    flex: 1;
+    gap: 18px;
+}
