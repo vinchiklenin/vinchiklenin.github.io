@@ -20,10 +20,15 @@
 
 .list-achiv {
     padding: 0;
-    padding-left: 15px;
-    padding-bottom: auto;
 }
 
 .achiv {
-    list-style-type: "•  ";
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+@media (max-width: 1200px){
+    .about{display: table;}
+    .two-col-text{display: table;}
+
 }
