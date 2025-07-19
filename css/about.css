@@ -13,6 +13,17 @@
 
 
 .two-col-text {
+    display: flex;
     flex: 1;
     gap: 18px;
+}
+
+.list-achiv {
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: auto;
+}
+
+.achiv {
+    list-style-type: "•  ";
 }
