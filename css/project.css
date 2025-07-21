@@ -1,13 +1,39 @@
 main{
-    max-width: 1400px;
     margin: auto;
     margin-top: 144px;
-    padding: 18px;
+    padding: 24px;
 }
 
-.project-image{
+.image-row-2-1 {
     width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 2fr 1fr;
+    padding: 0;
+}
 
-    padding-top: 12px;
-    padding-bottom: 12px;
+.image-row-1-1 {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+
+}
+
+.image-column{padding-bottom: 24px;}
+
+.p-descriptor{
+    font: 400 15pt;
+    color: #b1b1b1ff;
+}
+
+
+.image{width: 100%; margin: 0;}
+
+@media (max-width: 700px){
+    .image-row-2-1{display: block;}
+    .image-row-1-1{display: block;}
+    .image{padding: 0; }
+    .p-descriptor{font: 400 12pt;}
 }
