@@ -1,5 +1,6 @@
 /* VARIABLES */
 :root {
+  --navigationcolor: black;
   --coal: #3A3A3A;
   --snow: #ECEFF1;
   --apple: #FF4D3A;
@@ -16,6 +17,7 @@
 /* CONTAINER PROPERTIES */
 .header{
     margin: 24px;
+    height: 0px;
 
     display: table-row;
     position: fixed ;
@@ -27,6 +29,8 @@
 
 .header-menu{
     display: flex;
+
+
 }
 
 .nav-bar{
@@ -35,7 +39,7 @@
 }
 
 .nav-items {
-    background-color: black;
+    background-color: var(--navigationcolor);
     padding: 10px 30px;
     margin-right: auto;
 }
@@ -52,8 +56,9 @@
     background: #000000;
     visibility: none;
     display: inline-block;
-    margin-left: auto;
     margin-top: 12px;
+    position: absolute;
+    right: 0px;
 }
 
 #menu-ctn {}

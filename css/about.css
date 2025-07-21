@@ -1,6 +1,7 @@
 .about{
     gap: 24px;
     display: flex;
+    padding-bottom: 40px;
 
     margin-left: 24px;
     margin-right: 24px;
@@ -9,6 +10,7 @@
 
 .half-col{
     flex: 1;
+    padding-bottom: 50px;
 }
 
 

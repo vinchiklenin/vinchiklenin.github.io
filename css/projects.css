@@ -1,0 +1,45 @@
+.projects{
+    gap: 24px;
+    display: flex;
+    padding-bottom: 48px;
+
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.project-card{
+    transition: filter .4s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.project-card:hover{
+    color: #b1b1b1ff !important;
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.projects-cover-image {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.two-col {
+    display: flex;
+    flex: 1;
+    gap: 18px;
+}
+
+
+@media (max-width: 1200px){
+    .projects{display: table;}
+    .two-col{display: table;}
+
+}

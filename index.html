@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="./css/nav.css" >
     <link rel="stylesheet" href="./css/cover.css" >
     <link rel="stylesheet" href="./css/about.css" >
-
+    <link rel="stylesheet" href="./css/projects.css" >
 
     <script src="./scripts/nav.js"></script>
   </head>
@@ -28,9 +29,9 @@
       <div class="header-menu">
         <span id='menu-cnt' class="open-menu">
         <li class='menu-item'>
-          <a href='' target='_blank' class='item-link'>Главная</a>
+          <a href='./index.html' class='item-link'>Главная</a>
         </li><hr/>
-        <li class='menu-item'><a href='' target='_blank' class='item-link'>Проекты</a></li><hr/>
+        <li class='menu-item'><a href='./index.html#projects'class='item-link'>Проекты</a></li><hr/>
         <li class='menu-item'>
           <a href='https://t.me/vinchiklenin' target='_blank' class='item-link'>Телеграм</a><br/>
           <a href='https://www.behance.net/vinchiklenin' target='_blank' class='item-link'>Behance</a><br/>
@@ -79,8 +80,60 @@
         </div>
       </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
+      <div class="half-col">
+        <h2>Логотипы & Брендинг</h2>
+      </div>
+      <div class="two-col">
+        <div class="two-col column">
+          <div class="project-card">
+            <a href='' class=''>
+              <img src="./img/prg-cover/prg-1.jpg" class="projects-cover-image"/>
+              <p class='nodecor'>Брендинг для МАОУ СОШ № 200</p>
+            </a>
+          </div>
+        </div>
+        <div class="two-col column">
+          <div class="project-card">
+            <a href='' class=''>
+              <img src="./img/prg-cover/prg-2.jpg" class="projects-cover-image"/>
+              <p class='nodecor'>Брендинг для Arcane</p>
+            </a>
+          </div>
+        </div>
 
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="half-col">
+        <h2>Сайты</h2>
+      </div>
+      <div class="two-col">
+        <div class="two-col column">
+          <div class="project-card">
+            <a href='' class=''>
+              <img src="./img/prg-cover/prg-1.jpg" class="projects-cover-image"/>
+              <p class='nodecor'>Сайт хакатона UNIT.HACK 2025</p>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href='' class=''>
+              <img src="./img/prg-cover/prg-1.jpg" class="projects-cover-image"/>
+              <p class='nodecor'>Сайт хакатона UNIT.HACK 2025</p>
+            </a>
+          </div>
+        </div>
+        <div class="two-col column">
+          <div class="project-card">
+            <a href='' class=''>
+              <img src="./img/prg-cover/prg-2.jpg" class="projects-cover-image"/>
+              <p class='nodecor'>Сайт сервиса Ваша афиша</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
 
   </body>

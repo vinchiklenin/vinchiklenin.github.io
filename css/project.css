@@ -1,0 +1,13 @@
+main{
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 144px;
+    padding: 18px;
+}
+
+.project-image{
+    width: 100%;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
