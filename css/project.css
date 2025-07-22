@@ -28,12 +28,22 @@ main{
     color: #b1b1b1ff;
 }
 
+.project-desription{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 
 .image{width: 100%; margin: 0;}
+
+.non-last-in-column{padding-bottom: 24px;}
 
 @media (max-width: 700px){
     .image-row-2-1{display: block;}
     .image-row-1-1{display: block;}
     .image{padding: 0; }
     .p-descriptor{font: 400 12pt;}
+
+    .no-transform-for-mobile{display: grid !important; gap: 18px;}
+    .non-last-in-column{padding-bottom: 18px;}
 }
