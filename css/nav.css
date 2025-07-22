@@ -55,10 +55,9 @@
     opacity: 0;
     background: #000000;
     visibility: none;
-    display: inline-block;
-    margin-top: 12px;
+
     position: absolute;
-    right: 0px;
+    right: -10000px;
 }
 
 #menu-ctn {}
@@ -99,7 +98,12 @@ hr {
   border: 0.5px solid var(--coal);
 }
 
+
 .dropped {
+  margin-top: 12px;
+  position: absolute;
+  right: 0px;
+  display: inline-block !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
