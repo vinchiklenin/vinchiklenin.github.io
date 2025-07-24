@@ -1,6 +1,11 @@
+:root {
+    --backgroundcolor: #0c0c0c;
+    --textcolor: #ffffff;
+}
+
 body {
     font-family: 'NT Sakharov', sans-serif;
-    background-color:#080808;
+    background-color:var(--backgroundcolor);
     width: 100vw;
     font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "kern" 1;
 }
@@ -10,6 +15,27 @@ body {
     display: none;
 }
 
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Hairline.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 1;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-ExtraLight.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility
+}
 
 @font-face {
     font-family: 'NT Sakharov';
@@ -51,6 +77,21 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+}
+
 
 a:link {
     color: #aaaaaa(100% 0.01 -0.01);
@@ -77,7 +118,7 @@ a:active {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color:#ffffff;
+    color: var(--textcolor);
     line-height: 48px;
     text-align: left;
 }
@@ -86,7 +127,7 @@ a:active {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 16px;
-    color:#ffffff;
+    color: var(--textcolor);
     line-height: 18px;
     text-align: left;
 }
@@ -95,12 +136,12 @@ a:active {
     font-family: 'NT Sakharov', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 12px;
-    color:#ffffff;
+    color: var(--textcolor);
     line-height: 12px;
     text-align: left;
 }
 
-.white {color: #ffffff !important; }
+.white {color:var(--textcolor) !important; }
 .white:hover {color: #b1b1b1ff !important;}
 
 .nodecor {text-decoration: none !important; list-style: none;}

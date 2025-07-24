@@ -10,7 +10,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
   font: 400 18pt;
-  color: #ffffff;
+  color: var(--textcolor);
 
 }
 
@@ -53,7 +53,7 @@
 .open-menu{
     padding: 20px;
     opacity: 0;
-    background: #000000;
+    background: var(--navigationcolor);
     visibility: none;
 
     position: absolute;
@@ -70,7 +70,7 @@ a {
   height: 3px;
   width: 30px;
   list-style: none;
-  background: var(--snow);
+  background: var(--textcolor);
   margin: 0 0px;
   position: relative;
   top: 14px;
@@ -113,7 +113,7 @@ hr {
   height: 3px;
   width: 30px;
   list-style: none;
-  background: var(--snow);
+  background: var(--textcolor);
 }
 .menu-bars::before {
   transform: translateY(-10px);
@@ -128,8 +128,8 @@ hr {
   color: var(--coal);
 }
 a.soc-link:hover {
-  background: var(--snow);
-  box-shadow: -4px 0 0 var(--apple);
+  background: var(--textcolor);
+
 }
 
 /* ANIMATION KEYFRAMES */
