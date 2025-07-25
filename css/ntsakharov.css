@@ -11,6 +11,8 @@ main{
     color:black;
 }
 
+h3{font-size: 14px;}
+
 p {font-size: 18px; color:black;}
 
 .font-name{font-weight: 200; font-size: 96px; padding-top: 72px; padding-bottom: 72px;}
