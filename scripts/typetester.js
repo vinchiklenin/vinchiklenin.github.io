@@ -1,12 +1,17 @@
-function updateSize(newVal){
+
+
+
+function updateSize(newVal, testerNum){
     var newFontSize = newVal + 'px';
-    $('.sample').css('font-size', newFontSize);
+    $('.' + testerNum).css('font-size', newFontSize);
+    (document.querySelector('#' + testerNum + '-fs')).textContent = newFontSize;
   }
   
   
-  function updateFont(newVal) {
+  function updateFont(newVal, testerNum) {
     var newVale = newVal;
-    $('.sample').css('font-weight', newVal);
+    $('.' + testerNum).css('font-weight', newVal);
+    
   }
   
   

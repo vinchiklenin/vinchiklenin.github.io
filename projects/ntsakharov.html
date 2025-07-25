@@ -71,6 +71,31 @@
 
             <div class='text-row-1-3-2'>
                 <div class='column'>
+                    <h3>Овервью<h3>
+                </div>
+                
+                <div class='column'>
+                    <img class="image" src="../img/projects/ntsakharov/ov-1.svg"><br><br>
+                    <div class="image-row-1-1 no-transform-for-mobile">
+                        <div class="image-column">
+                            <img class="image" src="../img/projects/ntsakharov/ov-2.svg">
+                        </div>
+                        <div class="image-column">
+                            <img class="image" src="../img/projects/ntsakharov/ov 3.svg">
+                        </div>
+                    </div>
+                    <img class="image" src="../img/projects/ntsakharov/ov-4.svg"><br><br>
+                    <img class="image" src="../img/projects/ntsakharov/ov-5.svg"><br><br>
+                    <img class="image" src="../img/projects/ntsakharov/ov-6.svg"><br><br>
+                    
+                    </div>
+                </div>
+                <div class='column'>
+                </div>
+            </div>
+
+            <div class='text-row-1-3-2'>
+                <div class='column'>
                     <h3>Стилистические <br>альтернативы<h3>
 
                 </div>
@@ -84,37 +109,72 @@
                         </div>
                     </div>
                 </div>
-                <div class='column'>  
+                <div class='column'>
+                </div>
+            </div>
+            <div class='text-row-1-3-2'>
+                <div class='column'>
+                    <h3>Поддерживаемые <br>языки<h3>
+
+                </div>
+                <div class='column'>
+                    Abaza, Afar, Alekano, Amahuaca, Amarakaeri, Amis, Andaandi, Dongolawi, Ao Naga, Ashaninka, Asu (Tanzania), Batak Dairi, Batak Karo, Batak Mandailing, Batak Simalungun, Batak Toba, Belarusian, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Borana,Arsi,Guji Oromo, Buginese, Candoshi,Shapra, Cebuano, Chiga, Chokwe, Congo Swahili, Crimean Tatar, Eastern Arrernte, Eastern Oromo, Erzya, Fijian, Gilbertese, Gusii, Hani, Hiligaynon, Huastec, Indonesian, Ixcatlan Mazatec, Jamaican Creole English, Japanese, K’iche’, Kalaallisut, Kalenjin, Karachay,Balkar, Kekchi, Kenzi, Mattokki, Kimbundu, Kinyarwanda, Kituba (DRC), Kongo, Kuanyama, Kumyk, Ladino, Luba,Lulua, Luo (Kenya and Tanzania), Macedonian, Makhuwa,Meetto, Makonde, Makwe, Malaysian, Maore Comorian, Mauritian Creole, Minangkabau, Moksha, Murrinh,Patha, Mwani, Naga Pidgin, Ndonga, Ngazidja Comorian, Nobiin, Nogai, North Ndebele, Northern Qiandong Miao, Northern Uzbek, Nyankole, Orma, Paluan, Pampanga, Pintupi,Luritja, Pohnpeian, Rotokas, Rundi, Russian, Rusyn, Rwa, Samburu, Scots, Sena, Seselwa Creole French, Shambala, Shawnee, Shipibo,Conibo, Shona, Soga, Somali, Soninke, South Ndebele, Southern Qiandong Miao, Standard Malay, Swahili, Swati, Taita, Tedim Chin, Tok Pisin, Tsonga, Tumbuka, Tzeltal, Tzotzil, Ukrainian, Upper Guinea Crioulo, Wangaaybuwan
+                </div>
+                <div class='column'>
                 </div>
             </div>
         </div>
 
         <div class='type-tester'>
             <div class="tt">
-                <select onchange="updateFont(this.value)">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-1')">
                     <option value="1">Hairline</option>
                     <option value="100">Thin</option>
                     <option value="200">Extra Light</option>
                     <option value="300">Light</option>
                     <option value="400">Regular</option>
-                    <option selected value="500">Medium</option>
+                    <option  value="500">Medium</option>
                     <option value="600">Semi Bold</option>
                     <option value="700">Bold</option>
                     <option value="800">Extra Bold</option>
-                    <option value="900">Black</option>
+                    <option selected value="900">Black</option>
                 </select>
-                Font size: 
-                <input type="range" id="size" min="10" max="180" value="48" oninput="updateSize(this.value)">
-              </div>
-              
-              <div class="fw-500 sample" contenteditable="true">
-                Синусоида
-              </div>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-1-fs'>96px</p>
+                    <input class="range-fs" type="range" id="size" min="12" max="400" value="96" oninput="updateSize(this.value, 'type-tester-1')">
+                </div>
+                
+            </div>
+            <div class=" type-tester-input fw-900 px-96 type-tester-1" contenteditable="true">
+                MSU Faculty of Physics
+            </div>
         </div>
-
         <div class='type-tester'>
             <div class="tt">
-                <select onchange="updateFont(this.value)">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-2')">
+                    <option value="1">Hairline</option>
+                    <option value="100">Thin</option>
+                    <option value="200">Extra Light</option>
+                    <option selected value="300">Light</option>
+                    <option value="400">Regular</option>
+                    <option value="500">Medium</option>
+                    <option value="600">Semi Bold</option>
+                    <option value="700">Bold</option>
+                    <option value="800">Extra Bold</option>
+                    <option value="900">Black</option>
+                </select>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-2-fs'>54px</p>
+                    <input  class="range-fs" type="range" id="size" min="12" max="400" value="54" oninput="updateSize(this.value, 'type-tester-2')">
+                </div>
+            </div>
+            <div class="type-tester-input fw-300 px-54 type-tester-2" contenteditable="true">
+                What do you know about Sakharov?
+            </div>
+        </div>
+        <div class='type-tester'>
+            <div class="tt">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-3')">
                     <option value="1">Hairline</option>
                     <option value="100">Thin</option>
                     <option value="200">Extra Light</option>
@@ -126,14 +186,105 @@
                     <option value="800">Extra Bold</option>
                     <option value="900">Black</option>
                 </select>
-                Font size: 
-                <input type="range" id="size" min="10" max="180" value="48" oninput="updateSize(this.value)">
-              </div>
-              
-              <div class="fw-500 sample" contenteditable="true">
-                Синусоида
-              </div>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-3-fs'>32px</p>
+                    <input  class="range-fs" type="range" id="size" min="12" max="400" value="32" oninput="updateSize(this.value, 'type-tester-3')">
+                </div>
+            </div>
+            <div class="type-tester-input fw-500 px-32 type-tester-3" contenteditable="true">
+                §§. Воспрещается жить на даче сумасшедшим, безумным, страдающим заразными болезнями, престарелым, малолетним и находящимся в строю нижним чинам, ибо нигде нет столько опасности сочетаться законным браком, как на чистом воздухе.
+            </div>
         </div>
+        <div class='type-tester'>
+            <div class="tt">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-4')">
+                    <option selected value="1">Hairline</option>
+                    <option value="100">Thin</option>
+                    <option value="200">Extra Light</option>
+                    <option value="300">Light</option>
+                    <option value="400">Regular</option>
+                    <option value="500">Medium</option>
+                    <option value="600">Semi Bold</option>
+                    <option value="700">Bold</option>
+                    <option value="800">Extra Bold</option>
+                    <option value="900">Black</option>
+                </select>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-4-fs'>120px</p>
+                    <input  class="range-fs" type="range" id="size" min="12" max="400" value="120" oninput="updateSize(this.value, 'type-tester-4')">
+                </div>
+            </div>
+            <div class="type-tester-input fw-1 px-120 type-tester-4" contenteditable="true">
+                Nobel prize
+            </div>
+        </div>
+        <div class="image-row-1-1">
+        <div class='type-tester long-tester'>
+            <div class="tt">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-5')">
+                    <option value="1">Hairline</option>
+                    <option value="100">Thin</option>
+                    <option value="200">Extra Light</option>
+                    <option value="300">Light</option>
+                    <option selected value="400">Regular</option>
+                    <option value="500">Medium</option>
+                    <option value="600">Semi Bold</option>
+                    <option value="700">Bold</option>
+                    <option value="800">Extra Bold</option>
+                    <option value="900">Black</option>
+                </select>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-5-fs'>20px</p>
+                    <input  class="range-fs range-fs-long" type="range" id="size" min="8" max="100" value="20" oninput="updateSize(this.value, 'type-tester-5')">
+                </div>
+            </div>
+            <div class="type-tester-input fw-400 px-20 type-tester-5" contenteditable="true">
+                Андрей Дмитриевич Сахаров (21 мая 1921, Москва — 14 декабря 1989, Москва) — советский физик-теоретик, академик АН СССР, общественный деятель, диссидент и правозащитник. Один из создателей первой советской водородной бомбы. Народный депутат СССР, автор проекта конституции Союза Советских Республик Европы и Азии. Лауреат Нобелевской премии мира за 1975 год. После заявлений, осуждающих ввод советских войск в Афганистан, был лишён всех советских наград и премий и в январе 1980 года выслан из Москвы, его жена Елена Боннэр добровольно выехала с ним. В конце 1986 года генеральный секретарь ЦК КПСС М. С. Горбачёв разрешил им вернуться из ссылки в Москву.
+            </div>
+        </div>
+        <div class='type-tester long-tester'>
+            <div class="tt">
+                <select class='type-tester-weight-change' onchange="updateFont(this.value, 'type-tester-6')">
+                    <option value="1">Hairline</option>
+                    <option value="100">Thin</option>
+                    <option value="200">Extra Light</option>
+                    <option value="300">Light</option>
+                    <option selected value="400">Regular</option>
+                    <option value="500">Medium</option>
+                    <option value="600">Semi Bold</option>
+                    <option value="700">Bold</option>
+                    <option value="800">Extra Bold</option>
+                    <option value="900">Black</option>
+                </select>
+                <div class="type-tester-size-change">
+                    <p class='type-tester-fs-text' id='type-tester-6-fs'>20px</p>
+                    <input  class="range-fs range-fs-long" type="range" id="size" min="8" max="100" value="20" oninput="updateSize(this.value, 'type-tester-6')">
+                </div>
+            </div>
+            <div class="type-tester-input fw-400 px-20 type-tester-6" contenteditable="true">
+                Andrei Dmitrievich Sakharov (May 21, 1921, Moscow — December 14, 1989, Moscow) was a Soviet theoretical physicist, academician of the USSR Academy of Sciences, public figure, dissident and human rights activist. One of the creators of the first Soviet hydrogen bomb. People’s Deputy of the USSR, author of the draft constitution of the Union of Soviet Republics of Europe and Asia. Winner of the Nobel Peace Prize in 1975 After statements condemning the entry of Soviet troops into Afghanistan, he was stripped of all Soviet awards and prizes and expelled from Moscow in January 1980, his wife Elena Bonner voluntarily left with him.
+            </div>
+        </div>
+
+
+        </div>
+        <br><br>
+
+        <div class='text-row-1-3-2'>
+                <div class='column'>
+                    <h3>Авторы<h3>
+
+                </div>
+                <div class='column'>
+                    <h4>Ваня Коваленко</h4>
+                    <h4>Равид Балалиев</h4>
+                    <h4>Миша Воронин</h4>
+                </div>
+                <div class='column'>
+                </div>
+        </div>
+        <h4>Декабрь 2023</h4>
+
     </main>
 </body>
 </html>

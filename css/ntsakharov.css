@@ -25,6 +25,14 @@ p {font-size: 18px; color:black;}
 
 .column{padding-bottom: 24px;}
 
+.image{background-color: var(--textcolor);}
+
+.type-tester{
+    padding-bottom: 48px; max-width: 67%;
+}
+
+.tt{display: inline-flex; width: 100%; padding-bottom: 18px; padding-top: 18px;}
+
 .sample {
     margin-top: 60px;
     font-size: 48px;
@@ -62,6 +70,96 @@ p {font-size: 18px; color:black;}
     font-weight: 900;
 }
 
+.px-120{
+    font-size: 120px;
+}
+
+.px-96{
+    font-size: 96px;
+}
+
+.px-54{
+    font-size: 54px;
+}
+
+.px-48{
+    font-size: 48px;
+}
+
+.px-32{
+    font-size: 32px;
+}
+
+.px-20{
+    font-size: 20px;
+    line-height: 125%;
+}
+
+
+.type-tester-size-change{
+    display: inline-flex;
+    background-color: var(--navigationcolor);
+    border: none;
+    gap: 12px;
+    padding: 12px 18px;
+}
+
+.type-tester-fs-text{padding: 0; margin: 0;}
+
+.range-fs{
+    accent-color: var(--textcolor);
+    border: none;
+    -webkit-appearance: none;
+    width: 200px;
+    height: 3px;
+    border-radius: 0.5px;
+    padding: 0;
+    background: var(--textcolor);
+    outline: none;
+    padding: 0;
+    margin: auto;
+}
+
+select {
+    border: none;
+    background-color: var(--navigationcolor);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 80px !important;
+    margin-right: 12px;
+    box-shadow: none;
+    text-shadow: none;
+    outline-style: none;
+    position: relative;
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.9em) 1.0em;
+    background-size: 0.85em auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.type-tester-input{
+    font-feature-settings: "ss01" 0, "ss02" 0, "ss03" 01, "ss04" 0, "kern" 0;
+    border: none;
+    outline: none;
+    line-height: 120%;
+}
+
+.long-tester{max-width: 100%;}
+.range-fs-long{width: 150px;}
+
+@media (max-width: 1000px){.long-tester{display: block;}}
+
 
 @media (max-width: 700px){
     .font-name{font-size: 48px;}
@@ -71,4 +169,10 @@ p {font-size: 18px; color:black;}
 
     .no-transform-for-mobile{display: grid !important; gap: 18px;}
     .non-last-in-column{padding-bottom: 18px;}
+
+    .type-tester{font-size: 16px; max-width: 100%;}
+    .type-tester-fs-text{font-size: 16px;}
+    .range-fs{width: 120px;}
+    select{padding-right: 36px !important;}
+
 }
