@@ -1,0 +1,16 @@
+:root {
+    --navigationcolor: #dedede;
+    --backgroundcolor: #f0f0f0;
+    --textcolor:#101820;
+    --coal: #141414;
+    --snow: #0c0c0c;
+}
+
+main{
+    margin: auto;
+    margin-top: 144px;
+    padding: 24px;
+    color: #0c0c0c;
+}
+
+p {color:black;}
