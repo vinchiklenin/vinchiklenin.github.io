@@ -32,8 +32,9 @@
 }
 
 .two-col {
-    display: flex;
-    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: stretch end;
     gap: 18px;
 }
 

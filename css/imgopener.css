@@ -1,5 +1,9 @@
 
 .gallery {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
 .gallery__item {
@@ -50,13 +54,13 @@
     }
 }
 .modal img {
-    width: 50%;
+    width: 75%;
     object-fit: cover;
 }
 
 
 .closeBtn {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(172, 172, 172, 0.87);
     font-size: 25px;
     position: absolute;
     top: 0;
@@ -64,8 +68,10 @@
     margin: 20px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    background-color: black;
+    border: none;
 }
 
 .closeBtn:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(95, 95, 95);
 }
